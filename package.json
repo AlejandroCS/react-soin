@@ -1,0 +1,11 @@
+{
+  "name": "react-soin",
+  "version": "1.0.0",
+  "description": "React/Node examples for education purpose only",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Francisco Cerdas <chicus12@gmail.com>",
+  "license": "MIT"
+}
