@@ -57,3 +57,5 @@ typings/
 # dotenv environment variables file
 .env
 
+# archivo capacitacion
+capacitación.todo
