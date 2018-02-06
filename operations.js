@@ -13,7 +13,17 @@ const division = (num, num2) => {
   return num / num2
 }
 
+const resta = (num, num2) => {
+  return num - num2
+}
+
+const cuadrado = (num) => {
+  return num * num
+}
+
 module.exports = {
   suma,
   multiplicar,
+  resta,
+  cuadrado,
 }
