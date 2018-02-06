@@ -69,3 +69,101 @@ $ npm uninstall -D prettier
 ```sh
 $ npm run lint
 ```
+
+## Git
+### git init
+> Inicializa un repositorio de tipo GIT en el directorio local:
+```sh
+$ git init
+```
+
+### git clone [urlRepositorio]
+> Permite clonar un repositorio en la carpeta donde hayas elegido:
+```sh
+$ git clone https://github.com/chicus12/react-soin
+```
+
+### git add .
+> Agrega todos los archivos al stack de git para que sean controlados y versionados:
+```sh
+$ git add .
+```
+
+### git add [archivo]
+> Agrega el archivo al stack de git para que sean controlado y versionado:
+```sh
+$ git add README.md
+```
+
+### git checkout -- [archivo]
+> Descarta los cambios realizados al archivo:
+```sh
+$ git checkout -- README.md
+```
+
+### git reset --hard
+> Descarta todos los cambios realizados en el repositorio local y que no hayan sido "commiteados":
+```sh
+$ git reset --hard
+```
+
+### git commit –m '[mensaje]'
+> Confirma los cambios del stack de agregados:
+```sh
+$ git commit –m 'versión inicial del proyecto'
+```
+
+### git push [remote] [nombreRama]
+> Sube los cambios confirmados del stack al remote y rama indicados:
+```sh
+$ git push origin clase1/1-modules
+```
+
+### git fetch --all
+> Baja los cambios realizados en todas las ramas de todos los remotes:
+```sh
+$ git fetch --all
+```
+
+### git merge [remote = opcional]/[nombreRama]
+> Hace union de los cambios realizados en la rama remota con la rama local actual:
+```sh
+$ git merge origin/clase1/1-modules
+```
+
+### git pull [remote = opcional]/[nombreRama]
+> Baja los cambios realizadas en la rama remota indicada y hace el merge:
+```sh
+$ git pull origin/clase1/1-modules
+```
+
+### git branch
+> Permite ver la lista de ramas/branchs locales:
+```sh
+$ git branch
+$ clase1/1-modules
+$ clase1/2-class
+$ clase2/1-object_destructuring
+$ * master
+```
+
+### git branch -r
+> Permite ver la lista de ramas/branchs remotas:
+```sh
+$ git branch -r
+$ clase1/1-modules
+$ clase1/2-class
+$ * master
+```
+
+### git checkout -b [nombreRama]
+> Crea una rama/branch nuevo y se posiciona en la nueva rama:
+```sh
+$ git checkout -b clase1/1-modules
+```
+
+### git status
+> Ver el estado de cambios y archivos agregados al stack:
+```sh
+$ git status
+```
